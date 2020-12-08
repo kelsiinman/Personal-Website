@@ -1,5 +1,4 @@
 /* ------ ALL PAGES --------- */
-
 body{
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +9,7 @@ body{
 	
 header{
 	max-width: 100%;
-	height: 60px;
+	height: 80px;
 	text-align: center;
 	}
 	
@@ -21,8 +20,6 @@ a {
 
 nav {
 	max-width: 100%;
-	max-width: 1260px;
-	
 	}
 	
 nav ul {
@@ -34,12 +31,12 @@ nav ul {
 	}
 	
 nav li {
-	padding: 20px;
+	padding: 30px;
 	display: inline;
 	}
 	
 nav ul li a:hover {
-	background-color: #A5A58D;
+	background-color: #A96736;
 	color: white;
 	border-radius: 80px;
 	transition: .2s;
@@ -59,21 +56,13 @@ nav ul li a:visited {
 	text-indent: 30px;
 	float: left;
 	}
+
 	
-footer {
-	font-size: 12px;
-	font-family: Didot;
-	font-weight: bold;
-	margin: 0px auto;
-	padding: 70px;
-	text-align: center;
-	}
 	
 	
 /*  ------- HOME ------- */
 #logo {
 	padding: 10px;
-	margin: 40px auto;
 	text-align: center;
 	}
 	
@@ -103,15 +92,15 @@ p {
 	
 /*  ------- ABOUT  --------*/
 
-
-/* What I Know */
+/* ---- What I Know ------ */
 .about1 {
 	max-width: 600px;
 	max-height: 200px;
-	float: left;
+	margin: 0px auto;
 	border: 30px;
 	padding: 30px;
 	}
+
 .WIK {
 	background-color: #A5A58D;
 	color: white;
@@ -119,46 +108,30 @@ p {
 	word-spacing: 10px;
 	border-radius: 20px;
 	}
-.intro {
+	
+.intro1 {
 	text-indent: 50px;
 	font-size: 15px;
-	text-align: left;
 	line-height: 35px;
 	}
 	
-/* EDUCATION */
-
-#edu {
-	max-width: 600px;
-	max-height: 200px;
-	margin: 50px;
-	padding: 10px;
-	float: left;
-	background-color: #F0EFEB;
-	border-radius: 20px;
-	text-align: center;
-	line-height: 25px;
-	}
-.bullet1 {
-	text-align: left;
-	list-style-type: disc;
-	}
-	
-/* ------- What I Bring ------- */
+	/* ------- What I Bring ------- */
 .about2 {
 	max-width: 600px;
 	max-height: 200px;
-	float: right;
+	margin: 0px auto;
 	border: 30px;
 	padding: 30px;
 	}
-h2 {
+	
+.WIB {
 	background-color: #A5A58D;
 	color: white;
 	text-align: center;
 	word-spacing: 10px;
 	border-radius: 20px;
 	}
+	
 .intro2 {
 	text-indent: 50px;
 	font-size: 15px;
@@ -166,32 +139,135 @@ h2 {
 	line-height: 35px;
 	}
 	
+/* Download Resume Button */
+.downloadres{
+	text-align: center;
+	}
+
+.resumebutton {
+	display: inline-block;
+	padding: 10px;
+	width: 230px;
+	border-radius: 80px;
+	font-size: 16px;
+	font-family: Didot;
+	font-weight: bold;
+	background: none;
+	border-color: black;
+	color: black;
+	}
+	
+	
+/* -------- PROJECTS PAGE -------*/
+
+/* Development Section */
+#DEV {
+	max-width: 100%;
+	height: 250px;
+	border: 50px;
+	padding: 30px;
+	}
+
+/* Section Titles */
+.dev {
+	background-color: #A5A58D;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	border-radius: 20px;
+	}
+
+/* Paragraphs */
+.devpara , .wmp {
+	font-size: 15px;
+	}
+
+/* Personal Site */
+.website {
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-left: 40px ;
+	text-align: center;
+	}
+	
+/* Logo Links */
+.github {
+	width: 100px;
+	height:100px;
+	cursor: pointer;
+	}
+
+/* Where's My Professor */
+.WMP {
+	width: 500px;
+	height: 200px;
+	float: right;
+	margin-right: 10px ;
+	text-align: center;
+	}
+
+/* Graphic Design */
+#GD {
+	max-width: 100%;
+	height: 100px;
+	border: 50px;
+	padding: 30px;
+	text-align: center;
+	}
+	
+
 
 /* ----- CONTACT PAGE ------ */
+
 #contact {
 	max-width: 600px;
 	margin: 50px auto;
 	border: 5px;
 	padding: 30px;
 	text-align: center;
-	border-style: dashed;
 	}
 	
-.thanks {
-	font-weight: bold;
+/* Thanks Title */
+.thx {
 	text-transform: uppercase;
+	padding: 10px;
+	background-color: #A5A58D;
+	color: white;
+	text-align: center;
+	word-spacing: 10px;
+	border-radius: 20px;
 	}
 	
-button {
+/* Email Button */
+button.email {
 	display: inline-block;
 	top: 50%;
-	padding: 20px;
-	width: 170px;
+	padding: 10px;
+	width: 130px;
 	margin: 15px;
 	border-radius: 80px;
 	font-size: 16px;
 	font-family: Didot;
 	font-weight: bold;
-	background-color:#A5A58D ;
+	background: none;
+	border-color: black;
+	color: black;
+	}
+	
+/* LinkedIn Button */
+button.LinkedIn {
+	display: inline-block;
+	top: 50%;
+	padding: 10px;
+	width: 130px;
+	margin: 15px;
+	border-radius: 80px;
+	font-size: 16px;
+	font-family: Didot;
+	font-weight: bold;
+	background: none;
+	border-color: black;
 	color: black;
 	}
