@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-		<title> Contact </title>
-			<link href="main.css" type="text/css" rel="stylesheet" /> <!-- CSS -->
-	</head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="main.css" type="text/css" rel="stylesheet" />
+	<title> Contact </title>
+</head>
 
 	<body>
-				<header>
-					<nav>
-						<div id="headerlogo">
-							<img src="headerlogo.png" name="headerlogo"  width="200px" height="60px"> </div>
-						<ul class="nav">
-								<li> <a href="about.html"> About </a> </li> <!-- About Page --> 
-								<li> <a href="index.html">  Home </a> </li> <!-- Landing Page -->
-								<li> <a href="projects.html"> Projects </a> </li> <!-- Projects and Works -->
-								<li> <a href="contact.html"> Contact </a> </li> <!-- Contact Page --> 
-							</ul>
-					</nav>
-				</header>
+		<header>
+			<div class="logo-container">
+				<img src="headerlogo.png"  width="200px" height="60px"> 
+				</div>
+
+			<nav>
+				<input type="checkbox" id="burger" class="burger">
+				<ul class="nav-links">
+					<li> <a class="link" href="about.html"> About </a> </li> <!-- About Page --> 
+					<li> <a class="link" href="index.html">  Home </a> </li> <!-- Landing Page -->
+					<li> <a class="link" href="projects.html"> Projects </a> </li> <!-- Projects and Works -->
+					<li> <a class="link" href="contact.html"> Contact </a> </li> <!-- Contact Page --> 
+					</ul>
+				</nav>
 			
-			<!-- Inside Dashes -->
-				<div  id="contact">
-					<!-- Text -->
-					<h3 class="thx"> Thank you for coming to my website! </h3>
+			<div class="burger">
+				<label for="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>		
+				<div class="line3"></div>
+			</label>
+			</div>
+
+	</header>
+	<main> 
+		<section class="contact">
+			<div class="thank-you">
+				<h3 class="thx"> Thank you for coming to my website! </h3>
 					<p class="thanks"> Please feel free to email me, or check out my LinkedIn if you've enjoyed your time here! If you have any critiques on how I can improve my site and development skills, I greatly appreciate the feedback! </p>
-					
-					<!-- Buttons -->
-					<a href="mailTo:kelsiinman@yahoo.com"><button type="submit" class="email" > EMAIL </button></a> 
-					<a href="https://www.linkedin.com/in/kelsi-inman-338bb2149" target="_blank"><button type="submit" class="LinkedIn"  > LINKEDIN </button></a> 
-				</div> 
-	</body>
+					</div>
+
+				<!-- Buttons -->
+				<div class="buttons"></div>
+					<a  href="mailTo:kelsiinman@yahoo.com"><button class="email-button" type="submit" > EMAIL </button></a>
+					<a  href="https://www.linkedin.com/in/kelsi-inman-338bb2149" target="_blank"><button class="lin-button" type="submit"> LINKEDIN </button></a> 
+					</div>
+		</section>
+	</main>	
+</body>
 </html>

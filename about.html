@@ -1,41 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
 <head> 
-	<title> Kelsi Inman Website </title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
 	<link href="main.css" type="text/css" rel="stylesheet" />
+	<title> Kelsi Inman Website </title>
 </head>
 
 <body>
 		<header>
+			<div class="logo-container">
+				<img src="headerlogo.png"  width="200px" height="60px"> 
+				</div>
+
 			<nav>
-				<div id="headerlogo">
-					<img src="headerlogo.png" name="headerlogo"  width="200px" height="60px"> </div>
-				<ul class="nav">
-					<li> <a href="about.html"> About </a> </li> <!-- About Page --> 
-					<li> <a href="index.html">  Home </a> </li> <!-- Landing Page -->
-					<li> <a href="projects.html"> Projects </a> </li> <!-- Projects and Works -->
-					<li> <a href="contact.html"> Contact </a> </li> <!-- Contact Page --> 
+				<input type="checkbox" id="burger" class="burger">
+				<ul class="nav-links" >
+					<li> <a class="link" href="about.html"> About </a> </li> <!-- About Page --> 
+					<li> <a class="link" href="index.html">  Home </a> </li> <!-- Landing Page -->
+					<li> <a class="link" href="projects.html"> Projects </a> </li> <!-- Projects and Works -->
+					<li> <a class="link" href="contact.html"> Contact </a> </li> <!-- Contact Page --> 
 					</ul>
-				<div class ="navicon">
-					<div class="line1"> </div>
-					<div class="line2"> </div>
-					<div class="line2"> </div>
-					</div>
 			</nav>
+			<div class="burger">
+				<label for="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>		
+					<div class="line3"></div>
+				</label>
+			</div>
+
 	</header>
 	
-<div class="downloadres">
-	<a href="Resume.pdf" target="_blank">
-		<button class="resumebutton"> Download my Resum&eacute </button> </a> </div>
-
-	<div class="about1">  
-		<h2 class="WIK"> What I Know </h2> 
-			<p class="intro1" > During my Bachelor's program, I had exposure to many  programming languages such as Java, Processing, Python, HTML, and many more! I also took classes outside of the department to broaden my  area of expertise such as Social Media, Digital Tools and Graphic Design, Creative Writing, and others. Simultaneously, I continued to solely learn French, which I can speak, read, and write intermediatley. </p> </div> 
+<main>
 	
-	<div class ="about2"> 
-		<h2 class="WIB"> What I Bring </h2>
-			<p class="intro2"> I love laughing and providing a comfortable and safe environment for people around me to interact with. In a place of employment, not only will I bring these qualities, but also professionalism and open communication. I have been working since the age of 15, and consider my work-ethic one of my best qualities. I am very open and creative minded, as well as approachable and teachable. I love receiving critiques on how I can be better regarding my professional, and personal, life.</p> </div>
+	<div class="downloadres">
+		<a href="Resume.pdf" target="_blank">
+			<button class="resumebutton"> Download my Resum&eacute </button> </a> </div>
 
+	<section class="about">
+		<div class="about1">  
+			<h2 class="WIK"> What I Know </h2> 
+				<p class="intro1" > During my Bachelor's program, I had exposure to many  programming languages such as Java, Processing, Python, HTML, and many more! I also took classes outside of the department to broaden my  area of expertise such as Social Media, Digital Tools and Graphic Design, Creative Writing, and others. Simultaneously, I continued to solely learn French, which I can speak, read, and write intermediatley. </p> </div> 
+		
+		<div class ="about2"> 
+			<h2 class="WIB"> What I Bring </h2>
+				<p class="intro2"> I love laughing and providing a comfortable and safe environment for people around me to interact with. In a place of employment, not only will I bring these qualities, but also professionalism and open communication. I have been working since the age of 15, and consider my work-ethic one of my best qualities. I am very open and creative minded, as well as approachable and teachable. I love receiving critiques on how I can be better regarding my professional, and personal, life.</p> </div>
+	</section>
 
+</main>
 </body>
 </html>
