@@ -235,6 +235,30 @@ nav {
 	text-align: center;
 	}
 	
+.RedBubble {
+	width: 470px;
+	height: 100px;
+	padding-top: 20px;
+	margin: auto;
+	text-align: center;
+}
+.shoplink {
+	text-decoration: none;
+	color: #85856b ;
+	cursor: pointer;
+}
+.shoplink:visited {
+	color: #A96736;
+}
+
+.slideshow {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+}
+
+
+
 
 
 /* ----- CONTACT PAGE ------ */
@@ -397,9 +421,28 @@ nav {
 	.GD{
 		flex-direction: column;
 		width: 90%;
-		margin-top: 230px;
 		text-align: center;
 	}
+		
+	.RedBubble {
+		width: 90%;
+		height: 120px;
+		padding-top: 20px;
+		margin: auto;
+		text-align: center;
+	}
+
+	.slideshow {
+		width: 280px;
+		position: relative;
+		margin: auto;
+	}
+
+
+
+
+
+
 
 	.contact{
 		margin: auto;
