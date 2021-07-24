@@ -7,7 +7,7 @@
 	}
 
 body{
-	background-color: #FFF1E6;
+	background-color: #EBF7FF;
 	}
 	
 header{
@@ -29,7 +29,7 @@ nav {
 
 .link {
 	text-decoration: none;
-	color:#A96736;
+	color:#FEC89A;
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 	margin: 25px auto;
@@ -87,7 +87,7 @@ nav {
 }
 
 .welcome {
-	background-color: #A5A58D;
+	background-color: #4C5F6B;
 	color: white;
 	word-spacing: 10px;
 	border-radius: 20px;
