@@ -17,6 +17,16 @@ header{
 	height: 15vh;
 	align-items: center;
 	}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
 	
 nav {
 	flex: 1;
